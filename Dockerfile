@@ -1,4 +1,4 @@
-FROM dorowu/ubuntu-desktop-lxde-vnc
+FROM dorowu/ubuntu-desktop-lxde-vnc:xenial
 
 RUN apt-get update && apt-get install -y git \
     mplayer python2.7 python2.7-dev libblas-dev \
